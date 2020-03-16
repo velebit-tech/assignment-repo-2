@@ -1,0 +1,7 @@
+.ValidationComponent {
+  display: inline-block;
+  margin: 3px;
+  border: 3px solid green;
+  padding: 3px;
+  background-color: lightgreen;
+}
