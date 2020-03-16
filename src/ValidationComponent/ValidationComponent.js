@@ -8,7 +8,7 @@ const ValidationComponent = (prop) => {
   let componentStyle = null;
 
   if (len < 5) {
-    txt = 'Text too small.';
+    txt = 'Text too small. (' + len + ')';
     componentStyle = {
       display: 'inline-block',
       margin: '3px',
@@ -17,7 +17,7 @@ const ValidationComponent = (prop) => {
       backgroundColor: 'rgb(255, 104, 104)'
     }
   } else {
-    txt = 'Text long enough.';
+    txt = 'Text long enough. (' + len + ')';
     componentStyle = {
       display: 'inline-block',
       margin: '3px',
